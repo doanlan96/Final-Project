@@ -23,6 +23,7 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+```
 Cấu trúc project:
 ├── public  <-- Chứa file index.html cho cả trang web
 │   └── index.html
@@ -47,3 +48,4 @@ Cấu trúc project:
 |     |      ├── Shop.vue   <-- trang hiển thị danh sách sản phẩm 
 |     ├── App.vue
 |     ├── main.js
+```
