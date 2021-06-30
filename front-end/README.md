@@ -24,24 +24,26 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 Cấu trúc project:
--public: + index.hml
--src: - assets - chứa ảnh của trang web
-      - components - login - ForgotPassword.vue
-                           - Login.vue
-                           - Signup.vue
-                   - partials - Nav.vue
-                              - Footer.vue
-                   - EventCard.vue : hiển thị 1 sản phẩm
-                   - EventListShop.vue: hiển thị danh sách sản phâm trong view Shop
-                   - EventsList.vue: hiển thị danh sách best seller trên view Home
-       - router - index.js - config router
-       - store - index.js - config vueX store
-       - views - About.vue - trang about
-               - Cart.vue - trang giỏ hàng
-               - EventSingle.vue - trang hiển thị detail sản phẩm
-               - Home.vue - trang chủ
-               - PolicyShipping.vue - trang hiển thị thêm thông tin về chính sách
-               - Shop.vue - trang shopping
-        - App.vue
-        - main.js
-
+├── public  <-- Chứa file index.html cho cả trang web
+│   └── index.html
+├── src <-- chứa source code chính
+|     ├── assets <-- chứa ảnh
+|     ├── components
+|     |       ├── login <-- chứa các component của phần login đăng kí
+|     |       ├── partials <-- chứa Nav và Footer
+|     |       ├── EventCard.vue <-- hiển thị 1 sản phẩm 
+|     |       ├── EventListShop.vue <-- hiển thị danh sách sản phẩm trong danh mục Shop
+|     |       ├── EventsList.vue <-- hiển thị danh sách sản phẩm đang hot
+|     ├── router
+|     |      ├──  index.js <-- config router
+|     ├── store   
+|     |      ├── index.js <-- config store vuex
+|     ├── views
+|     |      ├── About.vue <-- trang about
+|     |      ├── Cart.vue  <-- trang giỏ hàng 
+|     |      ├── EventSingle.vue <-- trang hiển thị chi tiết sản phẩm
+|     |      ├── Home.vue   <-- trang chủ
+|     |      ├── PolicyShipping.vue <-- trang hiển thị chính sách
+|     |      ├── Shop.vue   <-- trang hiển thị danh sách sản phẩm 
+|     ├── App.vue
+|     ├── main.js
