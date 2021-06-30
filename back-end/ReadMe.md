@@ -1,3 +1,4 @@
+```
 Cấu trúc project:
 ├── connect  <-- connect.go kết nối với database
 │   └── connect.go
@@ -7,3 +8,4 @@ Cấu trúc project:
 ├── routes <-- config api
 ├── util <-- chứa file util cho jwt
 ├── app.go <-- file chính
+```
